@@ -6,7 +6,7 @@ def file = readYaml file: find_files.path
 
 def file_list = []
 
-file_list.add(file)
+file_list.add("file")
 
 properties([
      parameters([
