@@ -16,7 +16,7 @@ properties ([
 
 def d1 =  params.dc.split('-')
 
-println(${d1})
+println(d1)
 
 
 
