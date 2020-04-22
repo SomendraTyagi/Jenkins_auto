@@ -13,8 +13,9 @@ properties([
                  ])
               ])
 
-echo dc
-println dc
+
+println(params.dc)
+
 def d1 =  params.dc.split('-')
 
 
