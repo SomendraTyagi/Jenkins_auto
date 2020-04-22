@@ -1,9 +1,9 @@
 node {
-checkout scm 
+       checkout scm 
 
 def dl= ['KBC-SP' ,
          'AAHAT-SP',
-         'PR-Z'
+         'PR-Z',
           'KS-Z' 
        ]
 
