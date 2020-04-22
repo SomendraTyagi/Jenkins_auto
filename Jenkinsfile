@@ -13,7 +13,7 @@ properties ([
                  ])
               ])
 
-
+echo dc
 def d1 =  params.dc.split('-')
 
 
