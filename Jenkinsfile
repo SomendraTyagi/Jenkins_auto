@@ -16,15 +16,18 @@ properties([
 
 println(params.dc)
 
+def dc = params.dc
 def d1 =  params.dc.split('-')
+
 
 def d11 = d1[0]
 def d12 = d1[1]
 
+println(d2)
+
 println(d11)
 
-println(d12)
-
+println(dc)
 
 
 
