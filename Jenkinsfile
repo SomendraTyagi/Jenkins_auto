@@ -32,13 +32,13 @@ println(dc)
 
 switch ( dc )
      {
-          case KBC-SP:
+          case 'KBC-SP':
 
                 println('inside case kbc sp')
            
                 break 
  
-          case PR-Z:
+          case 'PR-Z':
 
                 println('inside case PR Z')        
                 break 
