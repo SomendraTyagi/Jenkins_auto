@@ -1,19 +1,25 @@
 node {
 checkout scm 
 
-def find_files = findFiles glob: param.yaml
-def file = readYaml file: find_files.path 
+def dl= ['KBC-SP' ,
+         'AAHAT-SP',
+         'PR-Z'
+          'KS-Z' 
+       ]
 
-def file_list = []
+properties ([
+        parameter ( [
+                choice ( choices: dl , description : 'choose one' , name : 'dc'),         
+                 ])
+              ])
 
-file_list.add("file")
 
-properties([
-     parameters([
-         choice(name: file_list)
-         ])
- ])
-  
+def d1 =  params.dc.split('-')
+
+println(${d1})
+
+
+
 stage ('Lets automate')
 {
 
