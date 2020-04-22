@@ -19,7 +19,7 @@ println(params.dc)
 def d1 =  params.dc.split('-')
 
 def d11 = d1[0]
-def d12 = d1[0]
+def d12 = d1[1]
 
 println(d11)
 
