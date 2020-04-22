@@ -26,8 +26,25 @@ def d12 = d1[1]
 
 println(d11)
 
+println (d12)
+
 println(dc)
 
+switch ( dc )
+     {
+          case KBC-SP:
+
+                println('inside case kbc sp')
+           
+                break 
+ 
+          case PR-Z:
+
+                println('inside case PR Z')        
+                break 
+
+
+       } 
 
 
 stage ('Lets automate')
