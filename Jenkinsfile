@@ -7,13 +7,14 @@ def dl= ['KBC-SP' ,
           'KS-Z' 
        ]
 
-properties ([
-        parameter ( [
+properties([
+        parameters( [
                 choice ( choices: dl , description : 'choose one' , name : 'dc'),         
                  ])
               ])
 
 echo dc
+println dc
 def d1 =  params.dc.split('-')
 
 
